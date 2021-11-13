@@ -3,7 +3,7 @@
  * @license MIT
  * @author Jim Chen
  */
-var BinArray = (function () {
+ var BinArray = (function () {
   var BinArray = {};
 
   /**
@@ -76,7 +76,7 @@ var BinArray = (function () {
  *
  * Copyright (c) 2014 Jim Chen
  */
-var CommentManager = (function() {
+export var CommentManager = (function() {
   var _defaultComparator = function (a,b) {
     if (a.stime > b.stime) {
       return 2;
@@ -1498,7 +1498,7 @@ var CommentFilter = (function () {
  * @author Jim Chen
 **/
 
-var CommentProvider = (function () {
+export var CommentProvider = (function () {
 
   function CommentProvider () {
     this._started = false;
@@ -1903,7 +1903,7 @@ var Promises = (function( ) {
  * Takes in an XMLDoc/LooseXMLDoc and parses that into a Generic Comment List
  * @license MIT License
  **/
-var BilibiliFormat = (function () {
+export var BilibiliFormat = (function () {
   var BilibiliFormat = {};
 
   // Fix comments to be valid
@@ -2204,7 +2204,7 @@ var BilibiliFormat = (function () {
  * Takes in JSON and parses it based on current documentation for AcFun comments
  * @license MIT License
  **/
-var AcfunFormat = (function () {
+export var AcfunFormat = (function () {
   var AcfunFormat = {};
 
   AcfunFormat.JSONParser = function (params) {
@@ -2435,7 +2435,7 @@ var AcfunFormat = (function () {
  * @author Jim Chen
  **/
 
-var CommonDanmakuFormat = (function () {
+export var CommonDanmakuFormat = (function () {
   var CommonDanmakuFormat = {};
   var _check = function (comment) {
     // Sanity check to see if we should be parsing these comments or not

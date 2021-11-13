@@ -1,5 +1,5 @@
 {
-  "name": "comment-core-library",
+  "name": "@std4453/comment-core-library",
   "title": "CommentCoreLibrary",
   "description": "Javascript library for organizing and displaying danmaku comments",
   "bugs": {
